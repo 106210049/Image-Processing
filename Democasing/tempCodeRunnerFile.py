@@ -1,0 +1,12 @@
+plt.subplot(3,3,4) 
+plt.imshow(picture_restored[:, :, 0]), plt.title('Blue restored'), plt.xticks([]), plt.yticks([])
+plt.subplot(3,3,5) 
+plt.imshow(picture_restored[:, :, 1]), plt.title('Green restored'), plt.xticks([]), plt.yticks([])
+plt.subplot(3,3,6) 
+plt.imshow(picture_restored[:, :, 2]), plt.title('Red restored'), plt.xticks([]), plt.yticks([])
+plt.subplot(3,3,7) 
+plt.imshow(demos_picture[:, :, 0]), plt.title('Blue'), plt.xticks([]), plt.yticks([])
+plt.subplot(3,3,8) 
+plt.imshow(demos_picture[:, :, 1]), plt.title('Green'), plt.xticks([]), plt.yticks([])
+plt.subplot(3,3,9) 
+plt.imshow(demos_picture[:, :, 2]
